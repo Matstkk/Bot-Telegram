@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-# Credenciais
+
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 TELEFONE = os.getenv("TELEFONE")
@@ -18,7 +18,7 @@ ML_ID = os.getenv("ML_ID")
 ML_TOOL = os.getenv("ML_TOOL")
 ALIEXPRESS_SK = os.getenv("ALIEXPRESS_SK")
 
-# Canais para monitorar
+
 CANAIS_MONITORAR = [
     "SamuelF3lipePromo",
 ]
